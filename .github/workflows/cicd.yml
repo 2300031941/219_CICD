@@ -2,16 +2,16 @@ name: CI/CD React App
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 permissions:
   contents: write  
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latestgit add .github/workflows/cicd.yml
 
     steps:
       - name: Checkout code
