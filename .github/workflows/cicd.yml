@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latestgit add .github/workflows/cicd.yml
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
